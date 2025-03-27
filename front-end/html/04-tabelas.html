@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        table -> Tabela
+        tr -> linha da tabela (table row)
+        td -> dados da tabela (table Data)
+        th -> cabeçalho da tabela (table header)
+
+        colspan -> extensão da coluna
+        rowspan -> extensão da linha
+
+        caption -> legenda / titulo da tabela
+        thead -> cabeçalho da tabela
+        tbody -> corpo da tabela
+        tfoot -> rodapé da tabela
+    -->
+
+    <table>
+        <tr>
+            <th>Produtos</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr>
+            <td>notebook</td>
+            <td>1</td>
+            <td>R$2000</td>
+        </tr>
+
+        <tr>
+            <td>Tablet</td>
+            <td>1</td>
+            <td>R$1500</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2"> Cupom 1 - R$20,00</td>            
+        </tr>
+
+        <tr>
+            <td colspan="2"> Cupom 2 - R$20,00</td>            
+        </tr>
+    </table>
+
+    <table>
+        <caption>Listagem de produtos</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>notebook</td>
+                <td>1</td>
+                <td>R$2000</td>
+            </tr>
+    
+            <tr>
+                <td>Tablet</td>
+                <td>1</td>
+                <td>R$1500</td>
+            </tr>
+        </tbody>
+
+        <tfoot> 
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$400</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
