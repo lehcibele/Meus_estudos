@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    
+    <h1>Formulários</h1>
+
+    <!--
+        form -> elemento que representa um formulário HTML.
+        input -> elemento que representa um campo de entrada de dados.
+        submit -> botão que envia os dados do formulário.
+        button -> botão que pode executar uma ação, mas não necessariamente envia o formulário.
+        action -> atributo que define para onde os dados do formulário serão enviados quando o botão de envio for clicado.
+        method -> atributo que define o método HTTP a ser usado ao enviar os dados do formulário. Os métodos mais comuns são GET e POST.
+    -->
+
+    <form>
+        Email: <br>
+        <input type="email" name="nome" placeholder="Digite seu Email"> <br>
+
+        Senha: <br>
+        <input type="password" name="senha" placeholder="Digite sua senha"> <br>
+
+        Comentário: <br>
+        <textarea name="comentario" placeholder="Faça um Comentário"></textarea>
+
+        <h2>Label</h2>
+        <!--
+            label -> legenda para um campo de entrada de dados. O atributo for deve ter o mesmo valor que o atributo id do campo de entrada correspondente.
+            id -> atributo que define um identificador único para um elemento HTML. É usado para associar o label ao campo de entrada correspondente.
+        -->
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <br>
+
+        Gênero<br>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <br> <br>
+
+        Estilo musical <br>
+        <input type="checkbox" name="estilo" id="rock" value="rock">
+        <label for="rock">Rock</label>
+
+        <input type="checkbox" name="estilo" id="pop" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="checkbox" name="estilo" id="sertanejo" value="sertanejo">
+        <label for="sertanejo">Sertanejo</label>
+
+        <br> <br>
+        <select name="estado" id="">
+            <option value="">Selecione</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="rj">Rio de Janeiro</option>
+        </select>
+
+        <br> <br>
+        Upload de arquivo:
+        <input type="file" name="arquivo">
+
+        <br> <br>
+        <input type="submit" value="Entrar"> <br>
+    </form>
+
+    <form>
+        <h2>Fieldset & legend</h2>
+
+        <!--
+            fieldset -> elemento que agrupa elementos de um formulário. É usado para criar uma caixa ao redor de um grupo de campos relacionados.
+            legend -> elemento que fornece uma legenda para o fieldset. É usado para descrever o conteúdo do fieldset.
+        -->
+
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+
+            <label for="nome1">Nome</label>
+            <input type="text" name="nome1" id="nome1">
+
+            <label for="email1">Email</label>
+            <input type="email" name="email1" id="email1">
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
