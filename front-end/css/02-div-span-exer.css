@@ -1,0 +1,25 @@
+.navbar{
+    background-color: cornflowerblue;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar span {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.banner {
+    background-color: purple;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    color: purple;
+}
+
+.footer span {
+    color: white;
+}
