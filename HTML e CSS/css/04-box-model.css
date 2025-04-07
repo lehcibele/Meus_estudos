@@ -1,0 +1,10 @@
+body {
+    border: 1px solid black;
+}
+
+
+h1 {
+    border: 3px solid purple;
+    /*padding: 10px; */
+    margin: 10px;
+}
