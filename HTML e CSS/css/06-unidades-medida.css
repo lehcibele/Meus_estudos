@@ -1,0 +1,25 @@
+.pixel {
+    border: 1px solid black;
+    background: red;
+    padding: 8px;
+    width: 200px;
+}
+
+.porcentagem {
+    border: 1px solid black;
+    background: red;
+    padding: 8px;
+    width: 50%;
+}
+
+.vw {
+    border: 1px solid black;
+    background: red;
+    padding: 8px;
+    width: 50vw;
+}
+
+#area {
+    border: 1px solid black;
+    width: 500px;
+}
