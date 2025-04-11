@@ -1,0 +1,57 @@
+div:hover {
+    background: purple;
+    color: white;
+}
+
+a, a:link  {
+    text-decoration: none;
+    color: green;
+    padding: 0.5em 1em;
+}
+
+/* Links não visitados - geralmente é igual ao estado a */
+a:link {
+    color: gray;
+}
+
+/* Links visitados */
+a:visited {
+    color: red;
+}
+
+/* Links ativos - geralmente é igual ao estado a */
+a:active {
+    background-color: red;
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Formulários */
+input:checked {
+    margin-left: 20px;
+}
+
+input:focus {
+    background-color: purple;
+    color: white;
+}
+
+input:required {
+    border: 1px solid red;
+}
+
+/* Pseudo elementos */
+p::first-line {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 3em;
+}
+
+p::selection {
+    background-color: yellow;
+}
