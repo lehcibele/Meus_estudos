@@ -1,0 +1,16 @@
+/* 
+    overflow: visible; -> padrão, o conteúdo que ultrapassa a caixa.
+    overflow: hidden; -> oculta o conteúdo que ultrapassa a caixa.
+    overflow: scroll; -> adiciona barras de rolagem, mesmo que não precise.
+    overflow: auto; -> adiciona barras de rolagem apenas se necessário.
+*/
+
+.caixa {
+  /*  width: 600px;
+    height: 300px; */
+    height: 300px;
+    min-width: 300px; /* largura minima */
+    max-width: 600px; /* largura maxima */
+    overflow: hidden; /* oculta o que ultrapassa a caixa */
+    border: 1px solid red
+}
