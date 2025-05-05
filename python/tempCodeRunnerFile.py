@@ -1,1 +1,0 @@
-contador = contador + 1
