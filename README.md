@@ -1,10 +1,74 @@
-# Meus estudos
+# 📚 Meus Estudos
 
-Este repositório foi criado com o objetivo de registrar os meus estudos.
+Bem-vindo(a) ao meu repositório de estudos!  
+Este espaço foi criado para registrar o meu progresso na jornada de aprendizado em desenvolvimento front-end e programação, além de armazenar meus códigos, anotações e projetos práticos.
 
-Atualmente estou estudando o básico do front-end, começando por:
-- HTML 
-- CSS
+## ✨ Objetivo
 
-[Minhas anotações](https://docs.google.com/document/d/1bESGd19qWWK9LyWPmxdLJgcw8rNI4VSSm2ptHKN-y-c/edit?tab=t.0#heading=h.t6yizt14ouuv)
+Este repositório tem como propósito:
+
+- 💾 Guardar meus códigos de estudo e prática.
+- 📌 Acompanhar o meu progresso nos cursos.
+- 🧠 Reforçar o aprendizado com anotações e exercícios.
+- 🚀 Compartilhar minha jornada de aprendizado com outras pessoas.
+
+## 🧭 Roteiro de Estudos
+
+### 🌐 Front-end
+
+Estudando os fundamentos com o curso:
+
+**Curso:** _Web Frontend Completo: HTML, CSS, JS, TS, React e Next 2025_. <br>
+📊 **Progresso atual:** `38%` concluído
+
+#### ✅ Módulos concluídos:
+- [x] HTML
+- [x] CSS
+
+#### 📌 Estudando agora:
+- Arrays em JavaScript
+
+### 🐍 Python
+
+Estudos paralelos com foco em lógica de programação e fundamentos da linguagem:
+
+**Curso:** _Curso de Python 3 do Básico ao Avançado_  
+**Livro:** _Introdução à Programação com Python_ – Nilo Ney Coutinho Menezes  
+📘 **Capítulo atual no livro:** `Capítulo 6 – Listas`  
+📚 **Assunto atual no curso:** `Listas`
+
+
+## 🗂 Organização do Repositório
+
+A estrutura do repositório segue a separação por linguagem e tópicos, facilitando a navegação e manutenção:
+
+```bash
+Meus_estudos/
+├── HTML e CSS/
+│   ├── css/
+│   ├── html/
+│   └── img/
+├── javascript/
+├── python/
+│   └── 01-python-basico/
+└── README.md
+```
+
+Cada pasta contém exercícios, anotações, desafios práticos e exemplos relacionados ao tema.
+
+---
+
+## 🌱 Em breve...
+
+- Continuar os módulos de JavaScript
+- Iniciar estudos com TypeScript e React
+- Avançar para projetos práticos com HTML, CSS e JS
+- Realizar pequenos desafios e aplicações com Python
+
+## 🤝 Conecte-se comigo
+
+📎 GitHub: [@lehcibele](https://github.com/lehcibele)
+
+Sinta-se à vontade para acompanhar meu progresso ou sugerir melhorias!  
+Este repositório é uma parte importante da minha trajetória como desenvolvedora em formação. 🚀
  
