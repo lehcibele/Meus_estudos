@@ -1,1 +1,0 @@
-hotel.ocupados = 5;
