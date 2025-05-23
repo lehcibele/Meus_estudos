@@ -15,3 +15,13 @@ print(nome11, _)
 # Para pegar o segundo valor
 _, nome22, *_ = nomes1 
 print(nome22)
+
+# Empacotamento e desempacotamento em funções
+lista = ['Maria', 'Eduarda', 1, 2, 3, 'Helena']
+
+for nome in lista:
+    print(nome, end = ' ')
+
+print(' ')
+# Faz o mesmo que o for
+print(*lista)
