@@ -50,7 +50,11 @@ Meus_estudos/
 │   └── img/
 ├── javascript/
 ├── python/
-│   └── 01-python-basico/
+│   └── 01-python-basico
+│   └── 02-python-intermediario
+├── beecrowd-exercicios
+│   └── javascript
+│   └── python
 └── README.md
 ```
 
