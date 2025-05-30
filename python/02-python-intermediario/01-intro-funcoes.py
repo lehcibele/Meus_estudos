@@ -10,12 +10,12 @@ def saudacao(nome = 'Sem nome'):
     print(f'Olá, {nome}!')
 
 saudacao('Leticia')
-
+print('----------------------')
 
 """
-    Argumentos nomeados e não nomeados em funções Python
-    Argumentos nomeado tem nome com sinal de igual
-    Argumentos não nomeado recebe apenas o argumento (valor)
+    Argumentos nomeados e não nomeados em funções Python:
+        Argumentos nomeado tem nome com sinal de igual
+        Argumentos não nomeado recebe apenas o argumento (valor)
 """
 
 # x e y são parâmetros
@@ -25,9 +25,10 @@ def soma(x, y):
 soma(1, 2)
 soma(y=1, x=2) # argumentos nomeados
 print('----------------')
+
 """
-    Valores padrão para parãmetros
-    Ao definir uma função, os parâmetros podem ter valores padrão. Caso o valor não seja enviado para o parãmetro, o valor padrão será usado.
+    Valores padrão para parâmetros
+    Ao definir uma função, os parâmetros podem ter valores padrão. Caso o valor não seja enviado para o parâmetro, o valor padrão será usado.
     Refatorar: Editar o seu código
 """
 
@@ -41,7 +42,8 @@ def soma1(x, y, z = None):
 soma1(1, 2, 2)
 soma1(3, 5, 2)
 soma1(100, 200)
-print('\n')
+print('----------------------')
+
 """
     Escopo de funções em Python
     Escopo significa o local onde aquele código pode atingir.
@@ -65,3 +67,17 @@ def escopo():
 
 print(x)
 escopo()
+print('----------------------')
+
+"""
+    Retorno de valores de funções (return)
+"""
+
+def soma2(x, y):
+    return x + y
+    print(1 + 1) # é inalcansavel, pois depois do return a função para
+
+soma3 = soma2(2, 2)
+soma4 = soma2(3, 3)
+# print(soma3 + soma4) # TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType', não estava usando o return na função soma, estava usando o print, por isso deu esse erro
+print(soma3 + soma4) # usando return na função soma
