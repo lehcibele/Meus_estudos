@@ -4,10 +4,10 @@
 */
 
 class Animal { // superclasse - pai
-    constructor() {
-        this.cor = "",
-        this.tamanho = 0,
-        this.peso = 0
+    constructor(cor, tamanho, peso) {
+        this.cor = cor,
+        this.tamanho = tamanho,
+        this.peso = peso
     }
 
     correr() {
@@ -20,9 +20,9 @@ class Animal { // superclasse - pai
 }
 
 class Cao extends Animal { // subclasse - filho
-    constructor() {
-        super(),    // chama o constructor da classe Animal
-        this.tamanhoOrelha = 0
+    constructor(cor, tamanho, peso, tamanhoOrelha) {
+        super(cor, tamanho, peso),    // chama o constructor da classe Animal
+        this.tamanhoOrelha = tamanhoOrelha
     }
 
     latir() {
@@ -44,13 +44,18 @@ class Papagaio extends Passaro {
 }
 
 // Instancia
-const cao = new Cao();
+const animal = new Animal("Amarelo", 60, 3) // passando parametros para o constructor animal
+const cao = new Cao("Amarelo", 60, 3, 5);
 const passaro = new Passaro();
 const papagaio = new Papagaio();
 
-papagaio.correr();
-papagaio.voar();
-papagaio.falar();
+console.log(cao.tamanho)
+
+// console.log(animal.cor);
+
+// papagaio.correr();
+// papagaio.voar();
+// papagaio.falar();
 
 // cao.correr()
 // passaro.correr();
