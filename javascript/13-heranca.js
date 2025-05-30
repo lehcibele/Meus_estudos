@@ -21,7 +21,7 @@ class Animal { // superclasse - pai
 
 class Cao extends Animal { // subclasse - filho
     constructor() {
-        super(),
+        super(),    // chama o constructor da classe Animal
         this.tamanhoOrelha = 0
     }
 
