@@ -20,6 +20,11 @@ class Animal { // superclasse - pai
 }
 
 class Cao extends Animal { // subclasse - filho
+    constructor() {
+        super(),
+        this.tamanhoOrelha = 0
+    }
+
     latir() {
         console.log("Latir");
     }
@@ -31,9 +36,25 @@ class Passaro extends Animal { // subclasse - filho
     }
 }
 
+//Papagaio herda de passaro que herda de animal
+class Papagaio extends Passaro {
+    falar() {
+        console.log("Falar");
+    }
+}
+
 // Instancia
-const cao = new Cao()
-const passaro = new Passaro()
+const cao = new Cao();
+const passaro = new Passaro();
+const papagaio = new Papagaio();
 
+papagaio.correr();
+papagaio.voar();
+papagaio.falar();
 
+// cao.correr()
+// passaro.correr();
+// passaro.voar();
+// passaro.cor = "Amarelo"
+// console.log(passaro.cor);
 
