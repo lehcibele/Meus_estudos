@@ -81,3 +81,21 @@ soma3 = soma2(2, 2)
 soma4 = soma2(3, 3)
 # print(soma3 + soma4) # TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType', não estava usando o return na função soma, estava usando o print, por isso deu esse erro
 print(soma3 + soma4) # usando return na função soma
+print('----------------------')
+
+"""
+    Closure (fechamento) e funções que rotornam outras funções
+"""
+
+def criar_saudacao(saudacao):
+    def saudar(nome):
+        return f'{saudacao}, {nome}!'
+
+    return saudar   # Ao não usar parenteses, retorna o local da memória da função
+
+falar_bom_dia = criar_saudacao('Bom dia')
+falar_boa_noite = criar_saudacao('Boa noite')
+
+for nome in ['Maria', 'Lucas', 'Lara']:
+    print(falar_bom_dia(nome))
+    print(falar_boa_noite(nome))
