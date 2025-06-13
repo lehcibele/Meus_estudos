@@ -19,14 +19,14 @@ Este repositório tem como propósito:
 Estudando os fundamentos com o curso:
 
 **Curso:** _Web Frontend Completo: HTML, CSS, JS, TS, React e Next 2025_. <br>
-📊 **Progresso atual:** `48%` concluído
+📊 **Progresso atual:** `50%` concluído
 
 #### ✅ Módulos concluídos:
 - [x] HTML
 - [x] CSS
 
 #### 📌 Estudando agora:
-- Arrays em JavaScript
+- Eventos em JavaScript
 
 ### 🐍 Python
 
@@ -34,9 +34,8 @@ Estudos paralelos com foco em lógica de programação e fundamentos da linguage
 
 **Curso:** _Curso de Python 3 do Básico ao Avançado_  
 **Livro:** _Introdução à Programação com Python_ – Nilo Ney Coutinho Menezes  
-📘 **Capítulo atual no livro:** `Capítulo 6 – Listas`  
-📚 **Assunto atual no curso:** `Listas`
-
+📘 **Capítulo atual no livro:** `Capítulo 7 – Strings`  
+📚 **Assunto atual no curso:** `Tipo set`
 
 ## 🗂 Organização do Repositório
 
@@ -59,15 +58,6 @@ Meus_estudos/
 ```
 
 Cada pasta contém exercícios, anotações, desafios práticos e exemplos relacionados ao tema.
-
----
-
-## 🌱 Em breve...
-
-- Continuar os módulos de JavaScript
-- Iniciar estudos com TypeScript e React
-- Avançar para projetos práticos com HTML, CSS e JS
-- Realizar pequenos desafios e aplicações com Python
 
 ## 🤝 Conecte-se comigo
 
