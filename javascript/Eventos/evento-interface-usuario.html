@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos: interface de usuario</title>
+</head>
+<body>
+
+    <!--
+        onload -> a página web terminou de carregar 
+            <body onload="executar()"> </body>
+        
+        onunload -> a página web está carregando
+            <body onunload="executar()"> </body>
+
+        
+    -->
+
+    <script>
+        function executar() {
+            console.log("Executar");
+        }
+
+        // eventos de usuario é mais usado com o window, e não nas tags HTML
+        //window.addEventListener('load', executar);
+        //window.addEventListener('unload', executar);
+        //window.addEventListener('error', executar);
+        //window.addEventListener('resize', executar);  janela é redimensionada (usado para capturar o tamanho da tela)
+        window.addEventListener('scroll', executar);
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de Formulario</title>
+</head>
+<body>
+
+    <form name="formulario">
+        <input type="text" name="entrada" placeholder="nome">
+
+    </form>
+
+    <script>
+
+        function executar() {
+            console.log("Executar");
+        }
+
+        // usa o name do form
+        const form = document.formulario
+        const entrada = form.entrada
+        entrada.addEventListener('input', executar);
+    </script>
+    
+</body>
+</html>
