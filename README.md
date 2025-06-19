@@ -19,7 +19,7 @@ Este repositório tem como propósito:
 Estudando os fundamentos com o curso:
 
 **Curso:** _Web Frontend Completo: HTML, CSS, JS, TS, React e Next 2025_. <br>
-📊 **Progresso atual:** `50%` concluído
+📊 **Progresso atual:** `56%` concluído
 
 #### 📌 Estudando agora:
 - Typescript
