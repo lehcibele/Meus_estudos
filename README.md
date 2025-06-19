@@ -21,12 +21,8 @@ Estudando os fundamentos com o curso:
 **Curso:** _Web Frontend Completo: HTML, CSS, JS, TS, React e Next 2025_. <br>
 📊 **Progresso atual:** `50%` concluído
 
-#### ✅ Módulos concluídos:
-- [x] HTML
-- [x] CSS
-
 #### 📌 Estudando agora:
-- Eventos em JavaScript
+- Typescript
 
 ### 🐍 Python
 
@@ -43,6 +39,9 @@ A estrutura do repositório segue a separação por linguagem e tópicos, facili
 
 ```bash
 Meus_estudos/
+├── beecrowd-exercicios
+│   └── javascript
+│   └── python
 ├── HTML e CSS/
 │   ├── css/
 │   ├── html/
@@ -51,9 +50,7 @@ Meus_estudos/
 ├── python/
 │   └── 01-python-basico
 │   └── 02-python-intermediario
-├── beecrowd-exercicios
-│   └── javascript
-│   └── python
+│── typescript 
 └── README.md
 ```
 
