@@ -1,11 +1,13 @@
 # define o que vai ser importado 
-__all__ = [
-    'soma_do_modulo',
-    'nome',
-]
+# __all__ = [
+#     'soma_do_modulo',
+#     'nome',
+# ]
+
+variavel = 'Alguma coisa'
 
 def soma_do_modulo(x, y):
     return x + y
 
-nome = 'leticia'
-num = 15
+nova_variavel = 'OK'
+
