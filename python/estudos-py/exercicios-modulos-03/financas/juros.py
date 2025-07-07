@@ -7,5 +7,7 @@
     # Calcule o preço de R$100 com 15% de desconto;
     # Calcule o valor de R$500 aplicando 2% ao mês por 6 meses.
 
-def juros(valor):
-    aumento = valor
+def func_juros(valor):
+   jurosPorMes = (valor * 0.02) * 6
+   jurosFinal = valor + jurosPorMes
+   return f"{jurosFinal:.2f}"

@@ -7,6 +7,6 @@
     # Calcule o preço de R$100 com 15% de desconto;
     # Calcule o valor de R$500 aplicando 2% ao mês por 6 meses.
 
-def desconto(valor):
+def func_desconto(valor):
     desc = valor - (valor * 0.15)
     return f"{desc:.2f}"
