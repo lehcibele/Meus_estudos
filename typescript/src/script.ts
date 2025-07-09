@@ -1,5 +1,5 @@
-export function bootstrap() {
-    console.log('Script carregado com sucesso e de forma automatica');
-}
+import { bootstrap } from "./modules/tipos-basicos/18-type-enum.js";
+
+export {bootstrap};
 
 
