@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/tipos-basicos/18-type-enum.js";
+import { bootstrap } from "./modules/narrowing/02-truthy-and-falsy.js";
 
 export {bootstrap};
 
