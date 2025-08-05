@@ -18,7 +18,6 @@ for chave, valor in pessoa.items():
 
 # 2️⃣ Contador de Palavras
 # Dado um texto (frase digitada pelo usuário), conte quantas vezes cada palavra aparece usando um dicionário.
-
 frase = input("Digite uma frase; ")
 palavras = frase.split() # split() -> transforma a frase em uma lista de palavras
 print(palavras)
