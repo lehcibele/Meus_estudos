@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/narrowing/03-optional-chaining.js";
+import { bootstrap } from "./modules/narrowing/07-instanceof.js";
 
 export {bootstrap};
 
