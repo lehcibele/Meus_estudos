@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/narrowing/07-instanceof.js";
+import { bootstrap } from "./modules/narrowing/11-type-never.js";
 
 export {bootstrap};
 
