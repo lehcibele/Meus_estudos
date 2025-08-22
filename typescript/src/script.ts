@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/narrowing/11-type-never.js";
+import { bootstrap } from "./modules/interfaces/02-implements.js";
 
 export {bootstrap};
 
