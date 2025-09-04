@@ -1,10 +1,9 @@
-import { Cabecalho } from "@/components/interface"
+import "@/app/estilo.css";
 
 export default function Page() {
     return (
         <div>
-            <Cabecalho />
-            <h1>Compras</h1>
+            <h1 className="titulo">Compras</h1>
         </div>
     );
 }
