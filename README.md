@@ -12,18 +12,6 @@ Este repositório tem como propósito:
 - 🧠 Reforçar o aprendizado com anotações e exercícios.
 - 🚀 Compartilhar minha jornada de aprendizado com outras pessoas.
 
-## 🧭 Roteiro de Estudos
-
-### 🌐 Front-end
-
-Estudando os fundamentos com o curso:
-
-**Curso:** _Web Frontend Completo: HTML, CSS, JS, TS, React e Next 2025_. <br>
-📊 **Progresso atual:** `80%` concluído
-
-#### 📌 Estudando agora:
-- React
-
 ## 🤝 Conecte-se comigo
 
 📎 GitHub: [@lehcibele](https://github.com/lehcibele)
